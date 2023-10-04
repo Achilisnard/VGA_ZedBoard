@@ -1,0 +1,6 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ip/design_1_v_tc_0_0/sim/design_1_v_tc_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_i2c_sender_adv7511_0_0/sim/design_1_i2c_sender_adv7511_0_0.vhd" \
+"../../../bd/design_1/sim/design_1.vhd" \
+
+nosort

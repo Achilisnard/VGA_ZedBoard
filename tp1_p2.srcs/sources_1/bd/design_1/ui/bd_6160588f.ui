@@ -1,0 +1,44 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-465,-207",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port clk -pg 1 -lvl 0 -x 0 -y 90 -defaultsOSRD
+preplace port OV7670_SIOC -pg 1 -lvl 3 -x 460 -y 70 -defaultsOSRD
+preplace port OV7670_SIOD -pg 1 -lvl 3 -x 460 -y 90 -defaultsOSRD
+preplace port OV7670_RESET -pg 1 -lvl 3 -x 460 -y 110 -defaultsOSRD
+preplace port OV7670_PWDN -pg 1 -lvl 3 -x 460 -y 130 -defaultsOSRD
+preplace port OV7670_XCLK -pg 1 -lvl 3 -x 460 -y 150 -defaultsOSRD
+preplace port btn -pg 1 -lvl 0 -x 0 -y 170 -defaultsOSRD
+preplace port OV7670_PCLK -pg 1 -lvl 0 -x 0 -y 250 -defaultsOSRD
+preplace port OV7670_VSYNC -pg 1 -lvl 0 -x 0 -y 270 -defaultsOSRD
+preplace port OV7670_HREF -pg 1 -lvl 0 -x 0 -y 290 -defaultsOSRD
+preplace port we -pg 1 -lvl 3 -x 460 -y 300 -defaultsOSRD
+preplace portBus OV7670_D -pg 1 -lvl 0 -x 0 -y 310 -defaultsOSRD
+preplace portBus addr -pg 1 -lvl 3 -x 460 -y 260 -defaultsOSRD
+preplace portBus dout -pg 1 -lvl 3 -x 460 -y 280 -defaultsOSRD
+preplace inst debounce_0 -pg 1 -lvl 1 -x 100 -y 160 -defaultsOSRD
+preplace inst ov7670_capture_0 -pg 1 -lvl 2 -x 310 -y 280 -defaultsOSRD
+preplace inst ov7670_controller_0 -pg 1 -lvl 2 -x 310 -y 100 -defaultsOSRD
+preplace netloc debounce_0_o 1 1 1 180 110n
+preplace netloc clk_wiz_0_clk_50 1 0 2 20 90 NJ
+preplace netloc ov7670_controller_0_sioc 1 2 1 NJ 70
+preplace netloc Net 1 2 1 NJ 90
+preplace netloc ov7670_controller_0_reset 1 2 1 NJ 110
+preplace netloc ov7670_controller_0_pwdn 1 2 1 NJ 130
+preplace netloc ov7670_controller_0_xclk 1 2 1 NJ 150
+preplace netloc i_0_1 1 0 1 NJ 170
+preplace netloc pclk_0_1 1 0 2 NJ 250 NJ
+preplace netloc OV7670_VSYNC_1 1 0 2 NJ 270 NJ
+preplace netloc OV7670_HREF_1 1 0 2 NJ 290 NJ
+preplace netloc OV7670_D_1 1 0 2 NJ 310 NJ
+preplace netloc ov7670_capture_0_addr 1 2 1 NJ 260
+preplace netloc ov7670_capture_0_dout 1 2 1 NJ 280
+preplace netloc ov7670_capture_0_we 1 2 1 NJ 300
+levelinfo -pg 1 0 100 310 460
+pagesize -pg 1 -db -bbox -sgen -150 0 600 360
+"
+}
+
